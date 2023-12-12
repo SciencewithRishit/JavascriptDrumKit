@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>JavaScript Drum Kit</title>
+
+    <!-- CSS Style Sheet -->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>JavaScript Drum Kit</h1>
+    </div>
+
+        <div class="midsection">
+
+            <div class="mainpanel">
+
+                <div class="drumpad">
+
+                    <div data-key="65" class="A key">
+                        <kbd class="keyname">A</kbd>
+                        <div class="image">
+                            <img class="instrumentimage" src="assets/clapemoji.png" alt="Clap Instrument Image">
+                        </div>
+                        <span class="soundname">Clap</span>
+                    </div>
+                    
+                    <div data-key="83" class="S key">
+                        <kbd class="keyname">S</kbd>
+                        <div class="image">
+                            <img class="instrumentimage" src="assets/hihatimage.png" alt="Hihat Instrument Image">
+                        </div>
+                        <span class="soundname">Hihat</span>
+                    </div>
+
+                    <div data-key="68" class="D key">
+                        <kbd class="keyname">D</kbd>
+                        <div class="image">
+                            <img class="instrumentimage" src="assets/kickimage.png" alt="Kick Instrument Image">
+                        </div>
+                        <span class="soundname">Kick</span>
+                    </div>
+
+                    <div data-key="70" class="F key">
+                        <kbd class="keyname">F</kbd>
+                        <div class="image">
+                            <img class="instrumentimage" src="assets/openhat.png" alt="Openhat Instrument Image">
+                        </div>
+                        <span class="soundname">Openhat</span>
+                    </div>
+                    
+                    <div data-key="71" class="G key">
+                        <kbd class="keyname">G</kbd>
+                        <div class="image">
+                            <img class="instrumentimage" src="assets/rideimage.jpg" alt="Ride Instrument Image">
+                        </div>
+                        <span class="soundname">Ride</span>
+                    </div>
+                    
+                    <div data-key="72" class="H key">
+                        <kbd class="keyname">H</kbd>
+                        <div class="image">
+                            <img class="instrumentimage" src="assets/snareimage.png" alt="Snare Instrument Image">
+                        </div>
+                        <span class="soundname">Snare</span>
+                    </div>
+
+                    <div data-key="74" class="J key">
+                        <kbd class="keyname">J</kbd>
+                        <div class="image">
+                            <img class="instrumentimage" id="tominstrument" src="assets/tominstrument.png" alt="Tom Instrument Image">
+                        </div>
+                        <span class="soundname">Tom</span>
+                    </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer">
+
+    </div>
+
+    <!-- "data-key" is a data attribute. -->
+    <audio data-key="65" src="assets/clapsound.wav"></audio>
+    <audio data-key="63" src="assets/hihatsound.wav"></audio>
+    <audio data-key="68" src="assets/kicksound.wav"></audio>
+    <audio data-key="70" src="assets/openhatsound.wav"></audio>
+    <audio data-key="71" src="assets/ridesoundwav.wav"></audio>
+    <audio data-key="72" src="assets/snaresound.wav"></audio>
+    <audio data-key="74" src="assets/tomsound.wav"></audio>
+
+    <script src="main.js"></script>
+    
+</body>
+
+</html>

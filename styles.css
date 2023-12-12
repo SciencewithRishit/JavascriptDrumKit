@@ -1,0 +1,217 @@
+/***** Universal Selector *****/
+* {
+
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+    margin: 0;
+
+}
+
+/***** Body *****/
+body {
+
+    overflow: visible;
+    
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+    flex-direction: column; 
+
+}
+
+/***** Header *****/
+/* Header */
+.header {
+
+    height: 60px;
+    width: 100%;
+
+    background-color: yellow;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 10px;
+
+}
+
+/* Heading 1 */
+h1 {
+
+    background-color: yellow;
+    color: black;
+
+}
+
+/***** Mid Section *****/
+/* Mid Section */
+.midsection {
+
+    height: 600px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px;
+
+    background-color: aqua;
+
+}
+
+/* Main Panel */
+.mainpanel {
+
+    height: 90%;
+    width: 90%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    background-color: #EF6262;
+
+}
+
+/* Drum Pad */
+.drumpad {
+
+    height: auto;
+    width: 90%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    border-radius: 10px;
+
+    padding: 10px;
+
+    background-color: #279EFF;
+    background: rgba(76, 175, 80, 0.3)
+
+}
+
+/***** Key: All the keys *****/
+/* Key */
+.key {
+
+    height: 100px;
+    width: 100px;
+
+    background-color: black;
+
+    border-radius: 10px;
+
+    padding: 2.5px;
+
+    flex-direction: column; 
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* Key Name */
+.keyname {
+
+    height: auto;
+    width: 80px;
+
+    color: white;
+
+    padding: 2.5px;
+
+    font-size: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* Image: The part where image is supposed to come. */
+.image {
+
+    height: auto;
+    width: 80px;
+
+    padding: 2.5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* Instrument Image */
+.instrumentimage {
+
+    height: 23px;
+    width: 23px;
+
+}
+
+/* Tom Instrument is having different width. */
+#tominstrument {
+
+    width: 40px;
+
+}
+
+/* Tink Instrument is having different height. */
+#tinkinstrument {
+
+    height: 25px;
+
+}
+
+/* Name of the Sound */
+.soundname {
+
+    color: yellow;
+
+    height: auto;
+    width: 80px;
+
+    font-size: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 4px;
+    padding-bottom: 1px;
+    padding-left: 2.5px;
+    padding-right: 2.5px;
+
+}
+
+
+/***** Footer *****/
+/* Footer */
+.footer {
+
+    height: 126px;
+    width: 100%;
+
+    background-color: blanchedalmond;
+
+}
+
+/***** Playing *****/
+.playing {
+
+    transform:scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1px #ffc600;
+
+}
